@@ -1,0 +1,8 @@
+compra = float(input ("Digite o valor da sua compra: "))
+if compra > 1000:
+    desconto_compra = compra * 1.1
+    print ("O cliente tem direito a 10% de desconto")
+    print ("O valor da compra deve ser de %.2f" % desconto_compra)
+    print ("Obrigado pela preferencia!!")
+
+

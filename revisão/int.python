@@ -1,0 +1,2 @@
+print = int (input("Insira aqui o número escolhido: "))
+print = int (input ("Acerte o número escolhido: "))
