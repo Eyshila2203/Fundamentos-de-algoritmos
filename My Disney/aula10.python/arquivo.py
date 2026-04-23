@@ -1,3 +1,56 @@
+# Estrutura: { "Nome do Filme": {"likes": 0, "dislikes": 0, "genero": "..."} }
+catalogo = {
+    "Matrix": {"genero": "Ficção", "likes": 0, "dislikes": 0},
+    "Shrek": {"genero": "Animação", "likes": 0, "dislikes": 0},
+    "O Chamado": {"genero": "Terror", "likes": 0, "dislikes": 0}
+}
+
+#def exibir_catalogo():
+ #   print("\n--- MEU CATÁLOGO ---")
+   # for filme, dados in catalogo.items():
+    #    print(f"🎬 {filme:12} | Gênero: {dados['genero']:10} | 👍 {dados['likes']} | 👎 {dados['dislikes']}")
+    #print("--------------------")
+
+#while True:
+    #exibir_catalogo()
+   # nome = input("\nDigite o nome do filme para avaliar (ou 'sair'): ").title()
+
+   #if nome.lower() == 'sair':
+       # break
+
+   # if nome in catalogo:
+       # voto = input("Digite [L] para Like ou [D] para Dislike: ").upper()
+        
+       # if voto == 'L':
+         #   catalogo[nome]["likes"] += 1
+         #   print(f"Marcado! Você curtiu {nome}.")
+      #  elif voto == 'D':
+        #    catalogo[nome]["dislikes"] += 1
+         #   print(f"Que pena! Você deu dislike em {nome}.")
+      #  else:
+      #      print("Opção inválida!")
+  #  else:
+      #  print("Filme não encontrado no catálogo. Verifique a ortografia.")
+
+#print("Programa finalizado.")
+
+while True:
+    print("1-adicionar usuario")
+    print("2-buscar filme")
+    print("0-sair")
+    m = int(input())
+    if m == 1:
+        print("sou o menu 1") 
+    elif m == 2:
+        print("sou o menu 2")
+    elif m == 0:
+        print("adeus mundo cruel")
+        break
+
+
+
+
+
 print ("Seja Bem-Vindo ao MyDisney")
 
 Nome = input("Digite seu nome: ")
